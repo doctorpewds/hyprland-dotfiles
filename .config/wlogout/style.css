@@ -1,0 +1,70 @@
+window {
+    font-family: Ubuntu Bold;
+    font-size: 12pt;
+    color: #e1e2e3; /* text */
+    background-color: rgba(16, 29, 47, 0.1);
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    border: none;
+    color: #e1e2e3;
+    background-color: rgba(16, 29, 47, 0);
+    margin: 0px;
+    transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: rgba(16, 29, 47, 0);
+}
+
+button:focus {
+    background-color: rgba(21, 39, 61, 0.5);
+    color: #93cee9;
+}
+
+#lock {
+    background-image: image(url("./lock.png"));
+}
+
+#lock:focus {
+    background-image: image(url("./lock-hover.png"));
+}
+
+#logout {
+    background-image: image(url("./logout.png"));
+}
+#logout:focus {
+    background-image: image(url("./logout-hover.png"));
+}
+
+#suspend {
+    background-image: image(url("./sleep.png"));
+}
+#suspend:focus {
+    background-image: image(url("./sleep-hover.png"));
+}
+
+#shutdown {
+    background-image: image(url("./power.png"));
+}
+#shutdown:focus {
+    background-image: image(url("./power-hover.png"));
+}
+
+#reboot {
+    background-image: image(url("./restart.png"));
+}
+#reboot:focus {
+    background-image: image(url("./restart-hover.png"));
+}
+
+#back {
+    background-image: image(url("./back.png"));
+}
+#back:focus {
+    background-image: image(url("./back-hover.png"));
+}
+

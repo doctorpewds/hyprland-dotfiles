@@ -1,0 +1,57 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#101d2f",
+
+        "menu.background": "#101d2f",
+        "menu.separatorBackground": "#1b3e5a",
+        "titleBar.activeBackground": "#101d2f",
+        "titleBar.inactiveBackground": "#101d2f",
+        "statusBar.background": "#101d2f",
+        "panel.background": "#101d2f",        
+
+        "sideBar.background": "#101d2f",
+        "sideBarSectionHeader.background": "#152334",
+
+        "terminal.background": "#101d2f",
+        
+        "editor.background": "#101d2f",
+        "tab.activeBackground": "#1b3e5a",
+        "tab.inactiveBackground": "#101d2f",
+        "editorCursor.foreground": "#ffffff",
+        "notebook.focusedEditorBorder": "#93cee9",
+        "notebook.focusedCellBackground": "#1b3e5a",
+        "notebook.cellHoverBackground": "#1b3e5a",
+        "notebook.cellEditorBackground": "#15273d",
+
+        "dropdown.background": "#1b3e5a",
+        "dropdown.listBackground": "#1b3e5a",
+        "dropdown.foreground": "#93cee9",
+
+        "button.background": "#15273d",
+        "button.border": "#93cee9",
+        "button.foreground": "#93cee9",
+        "button.hoverBackground": "#1b3e5a",
+        "button.secondaryHoverBackground": "#1b3e5a",
+
+        "checkbox.background": "#15273d",
+        "checkbox.foreground": "#93cee9",
+        "checkbox.border": "#323d52",
+        "checkbox.selectBorder": "#93cee9",
+        "settings.checkboxBackground": "#15273d",
+        "checkbox.selectBackground": "#15273d",
+        "settings.checkboxForeground": "#93cee9",
+        "settings.checkboxBorder": "#323d52",
+
+        "scrollbarSlider.background": "#1b3e5a",
+        "scrollbarSlider.activeBackground": "#93cee9",
+        "scrollbarSlider.hoverBackground": "#93cee9"
+    },
+    "window.autoDetectHighContrast": false,
+    "window.titleBarStyle": "custom",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Starfall",
+    
+}

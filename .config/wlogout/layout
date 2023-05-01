@@ -1,0 +1,31 @@
+{
+    "label" : "lock",
+    "action" : "swaylock --screenshots --clock --indicator --indicator-radius 100 --indicator-thickness 7 --effect-blur 7x5 --effect-vignette 0.7:0.7 --ring-color 1b3e5a --key-hl-color 101d2f --line-color 00000000 --inside-color 00000088 --separator-color 00000000 --grace 2 --fade-in 0.2",
+    "text" : "Lock",
+    "keybind" : "l"
+}
+{
+    "label" : "logout",
+    "action" : "hyprctl dispatch exit 0",
+    "text" : "Logout",
+    "keybind" : "e"
+}
+{
+    "label" : "shutdown",
+    "action" : "shutdown -h now",
+    "text" : "Shutdown",
+    "keybind" : "s"
+}
+{ 
+   "label" : "back",
+    "action" : "pkill wlogout",
+    "text" : "Back",
+    "keybind" : "b"
+}
+
+{
+    "label" : "reboot",
+    "action" : "reboot",
+    "text" : "Reboot",
+    "keybind" : "r"
+}

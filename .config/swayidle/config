@@ -1,0 +1,2 @@
+timeout 600 'hyprctl dispatch dpms off' resume 'sleep 5; hyprctl dispatch dpms on'
+before-sleep 'swaylock --screenshots --clock --indicator --indicator-radius 100 --indicator-thickness 7 --effect-blur 7x5 --effect-vignette 0.7:0.7 --ring-color 1b3e5a --key-hl-color 101d2f --line-color 00000000 --inside-color 00000088 --separator-color 00000000 --grace 2 --fade-in 0.2'
